@@ -12,8 +12,8 @@ Before you proceed, make sure you have the following installed on your system:
 ### Installing
 1. Clone this repository:
 ```
-git clone https://github.com/yourusername/urban-sound-classifier.git
-cd urban-sound-classifier
+git clone https://github.com/OsamahAl-Bayati/project-ml.git
+cd project-ml
 ```
 2. Create and activate a virtual environment (optional, but recommended):
 ```
@@ -30,6 +30,7 @@ pip install -r requirements.txt
 
 ```
 project-ml/
+    audio-classification.ipynb
     UrbanSound8K/
         audio/
             fold1/
@@ -37,7 +38,6 @@ project-ml/
             ...
         metadata/
             UrbanSound8K.csv
-    .ipynb file
 ```
 ### Running the Project
 1. Start Jupyter Notebook or Jupyter Lab:
